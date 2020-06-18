@@ -1,0 +1,71 @@
+.fadein-mt-20-1 {
+  animation: fadein-mt-20 1s;
+  -moz-animation: fadein-mt-20 1s; /* Firefox */
+  -webkit-animation: fadein-mt-20 1s; /* Safari and Chrome */
+  -o-animation: fadein-mt-20 1s; /* Opera */
+}
+.fadein-mt-20-2 {
+  animation: fadein-mt-20 2s;
+  -moz-animation: fadein-mt-20 2s; /* Firefox */
+  -webkit-animation: fadein-mt-20 2s; /* Safari and Chrome */
+  -o-animation: fadein-mt-20 2s; /* Opera */
+}
+.fadein-mt-20-3 {
+  animation: fadein-mt-20 3s;
+  -moz-animation: fadein-mt-20 3s; /* Firefox */
+  -webkit-animation: fadein-mt-20 3s; /* Safari and Chrome */
+  -o-animation: fadein-mt-20 3s; /* Opera */
+}
+.fadein-mt-20-4 {
+  animation: fadein-mt-20 4s;
+  -moz-animation: fadein-mt-20 4s; /* Firefox */
+  -webkit-animation: fadein-mt-20 4s; /* Safari and Chrome */
+  -o-animation: fadein-mt-20 4s; /* Opera */
+}
+.fadein-mt-20-5 {
+  animation: fadein-mt-20 5s;
+  -moz-animation: fadein-mt-20 5s; /* Firefox */
+  -webkit-animation: fadein-mt-20 5s; /* Safari and Chrome */
+  -o-animation: fadein-mt-20 5s; /* Opera */
+}
+
+@keyframes fadein-mt-20 {
+  from {
+    opacity:0;
+    margin-top: -20%;
+  }
+  to {
+    opacity:1;
+    margin-top: 0;
+  }
+}
+@-moz-keyframes fadein-mt-20 { /* Firefox */
+  from {
+    opacity:0;
+    margin-top: -20%;
+  }
+  to {
+    opacity:1;
+    margin-top: 0;
+  }
+}
+@-webkit-keyframes fadein-mt-20 { /* Safari and Chrome */
+  from {
+    opacity:0;
+    margin-top: -20%;
+  }
+  to {
+    opacity:1;
+    margin-top: 0;
+  }
+}
+@-o-keyframes fadein-mt-20 { /* Opera */
+  from {
+    opacity:0;
+    margin-top: -20%;
+  }
+  to {
+    opacity:1;
+    margin-top: 0;
+  }
+}
